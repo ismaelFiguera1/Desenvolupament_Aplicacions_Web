@@ -1,0 +1,111 @@
+@font-face {
+  font-family: STAR-JEDI;
+  src: url(Starjedi.ttf);
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url(Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: "MrDafoe";
+  src: url(MrDafoe-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Kalam";
+  src: url(Kalam-Regular.ttf);
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(202, 169, 66);
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-text {
+  font-style: bold;
+}
+
+h1 {
+  font-family: STAR-JEDI;
+  letter-spacing: 10px;
+}
+
+header > section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header span {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.header-text {
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+}
+
+header div {
+  width: 35%;
+}
+
+h1 span {
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+header p {
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+main .dalt {
+  font-family: "Pacifico";
+}
+
+main .fila-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.centre {
+  text-align: right;
+  color: white;
+}
+
+.baix {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main > div {
+  width: 50%;
+}
+
+.baix {
+  color: grey;
+  font-family: "MrDafoe";
+  font-weight: bold;
+}
+
+.centre {
+  font-family: "Kalam";
+}

@@ -1,0 +1,56 @@
+.exercici {
+  border: 1px solid black;
+  margin: 100px;
+}
+
+.quadrat {
+  list-style-type: square;
+}
+
+.cercle-buit {
+  list-style-type: circle;
+}
+
+.romans {
+  list-style-type: lower-roman;
+}
+
+.lletres {
+  list-style-type: lower-latin;
+}
+
+.obert {
+  list-style-image: url(imatges/obert.svg);
+}
+
+.tancat {
+  list-style-image: url(imatges/tancat.svg);
+}
+
+.numero-1 {
+  list-style-image: url(imatges/icona-1.svg);
+}
+
+.numero-2 {
+  list-style-image: url(imatges/icona-2.svg);
+}
+
+.numero-3 {
+  list-style-image: url(imatges/icona-3.svg);
+}
+
+.numero-4 {
+  list-style-image: url(imatges/icona-4.svg);
+}
+
+.numero-5 {
+  list-style-image: url(imatges/icona-5.svg);
+}
+
+.arbre {
+  list-style-image: url(imatges/arbre.png);
+}
+
+.estrella {
+  list-style-image: url(imatges/estrella.gif);
+}

@@ -1,0 +1,53 @@
+table {
+  width: 90%;
+  margin: auto;
+}
+
+th,
+td {
+  width: 15%;
+}
+
+table,
+caption,
+tr {
+  border: thin solid black;
+}
+
+th {
+  font-family: "Courier New", Courier, monospace;
+}
+
+caption {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.majuscula {
+  font-weight: bold;
+}
+
+.fila {
+  text-align: center;
+}
+
+.cela {
+  border: thin solid black;
+}
+
+tbody {
+  font-weight: bold;
+}
+
+.fila div {
+  font-weight: normal;
+}
+
+.pati {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+.lliure {
+  background-color: rgba(128, 128, 128, 0.3);
+}

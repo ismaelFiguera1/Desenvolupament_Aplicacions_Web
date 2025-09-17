@@ -1,0 +1,81 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(../Imatges/imatges_cases/fons_aigua.jpg);
+  display: flex;
+  flex-direction: column;
+}
+
+body > * {
+  flex: 1;
+  overflow: hidden;
+}
+
+.seccio1 {
+  display: flex;
+  padding: 2%;
+  font-size: 150%;
+}
+
+.seccio2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.botons {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccio2 > div {
+  background-image: url(../Imatges/imatges_cases/lin_animada.gif);
+  color: transparent;
+  height: 10%;
+}
+
+nav {
+  height: 50%;
+  width: 60%;
+}
+
+.linea1 {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 1%;
+}
+
+.linea1 > * {
+  flex: 1;
+  height: 50%;
+  padding-right: 1%;
+}
+
+.linea2 div {
+  height: 50%;
+}
+
+nav img {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer p {
+  text-align: center;
+  font-size: 150%;
+}

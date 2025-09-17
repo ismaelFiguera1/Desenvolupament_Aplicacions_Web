@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  margin: inherit;
+  border: medium solid brown;
+  border-radius: 3%;
+}
+
+.linea1 {
+  display: flex;
+}
+.linea1 > * {
+  width: 60%;
+  text-align: center;
+}
+
+.quadre {
+  width: 20%;
+}
+
+.quadre img {
+  width: 100%;
+  height: auto;
+}
+
+.quadre1 {
+  width: 20%;
+}
+
+.marcat {
+  border: thin black dotted;
+}

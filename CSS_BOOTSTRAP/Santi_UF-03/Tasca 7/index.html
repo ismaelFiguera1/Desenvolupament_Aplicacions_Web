@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container py-4">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#tab-accordion">
+            Accordion
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#tab-alerts">Alerts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#tab-listgroups">
+            List groups
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#tab-cards">Cards</a>
+        </li>
+      </ul>
+
+      <div class="tab-content mt-3">
+        <div class="tab-pane fade show active" id="tab-accordion">
+          <div class="accordion">
+            <div class="accordion-item">
+              <h2>
+                <button
+                  class="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#c1"
+                >
+                  Opció Acordió 1
+                </button>
+              </h2>
+              <div id="c1" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <strong>Primer element de l'acordió.</strong>
+                  Blah blah blah.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2>
+                <button
+                  class="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#c2"
+                >
+                  Opció Acordió 2
+                </button>
+              </h2>
+              <div id="c2" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <strong>Segon element de l'acordió.</strong>
+                  Blah blah blah.
+                  <a href="#">Vull saber-ne més</a>
+                  .
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2>
+                <button
+                  class="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#c3"
+                >
+                  Opció Acordió 3
+                </button>
+              </h2>
+              <div id="c3" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <strong>Tercer element de l'acordió.</strong>
+                  Blah blah blah.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2>
+                <button
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#c4"
+                >
+                  Opció Acordió 4
+                </button>
+              </h2>
+              <div id="c4" class="accordion-collapse collapse">
+                <div class="accordion-body"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-alerts">
+          <div class="container py-4">
+            <h2 class="mb-4">Llenguatges de programació</h2>
+
+            <div class="row mb-3">
+              <div class="col-4">
+                <div
+                  class="alert alert-primary d-flex align-items-center gap-3"
+                >
+                  <img src="assets/images/Captura.png" width="30" />
+                  <div><b>Java.</b> Creat per Sun l'any 1990.</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="alert alert-light d-flex align-items-center gap-3">
+                  <img src="assets/images/Captura2.png" width="30" />
+                  <div><b>Go.</b> Creat per Google l'any 2007.</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div
+                  class="alert alert-success d-flex align-items-center gap-3"
+                >
+                  <img src="assets/images/Captura4.png" width="30" />
+                  <div><b>PHP.</b> Creat a partir de Perl l'any 1994.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-4">
+                <div class="alert alert-danger">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/Captura1.png" width="30" />
+                    <b>AngularJS</b>
+                  </div>
+                  <div class="mt-2">
+                    <b>AngularJS</b> és un entorn de treball per a aplicacions
+                    web de codi lliure mantingut per l'empresa Google i per una
+                    comunitat de particulars i empreses.
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="alert alert-warning">
+                  <div class="d-flex align-items-center gap-3">
+                    <img
+                      src="assets/images/Captura3.png"
+                      width="30"
+                      alt=".NET"
+                    />
+                    <b>Microsoft .NET</b>
+                  </div>
+                  <div class="mt-2">
+                    El framework <b>Microsoft .NET</b> és un component
+                    programari que pot ser afegit o estar inclòs al Sistema
+                    Operatiu Microsoft Windows.
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="alert alert-info">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/Captura5.png" width="30" />
+                    <b>HTML 5</b>
+                  </div>
+                  <div class="mt-2">
+                    <b>HTML5</b> (<em>HyperText Markup Language</em>, versió 5)
+                    és la cinquena gran revisió del llenguatge bàsic de la World
+                    Wide Web, HTML. Desenvolupat pel consorci W3C.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-listgroups">
+          <h2 class="mt-4 mb-3">Safata d'entrada</h2>
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center bg-success bg-opacity-25 text-success"
+            >
+              Entrada
+              <span class="badge bg-secondary rounded-pill">13</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center bg-info bg-opacity-25 text-info"
+            >
+              Enviats
+              <span class="badge bg-secondary rounded-pill">2</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center bg-primary text-white"
+            >
+              Esborranys
+              <span class="badge bg-secondary rounded-pill">12</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center bg-warning bg-opacity-25 text-warning"
+            >
+              Esborrats
+              <span class="badge bg-secondary rounded-pill">5</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center bg-danger bg-opacity-25 text-danger"
+            >
+              Correu brossa
+              <span class="badge bg-secondary rounded-pill">33</span>
+            </li>
+          </ul>
+
+          <div class="row mt-4">
+            <div class="col-4">
+              <ul class="list-group w-100">
+                <li class="list-group-item bg-primary text-white">
+                  Correu superimportant
+                  <span
+                    class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger"
+                  >
+                    Spam
+                  </span>
+                </li>
+                <li class="list-group-item">Clica aquí!</li>
+                <li class="list-group-item">Enlarge your vocabulary</li>
+                <li class="list-group-item">Win a Lot</li>
+              </ul>
+            </div>
+
+            <div class="col-8">
+              <h3>Correu superimportant</h3>
+              <p>
+                El meu nom és Jules Verne. Tinc 15 anys i uns extraterrestres
+                m'han abduït. M'han informat que la terra desapareixerà si no
+                aconsegueixo enviar aquesta informació a 5 petabytes de
+                persones. Envia-ho a 10 contactes si no vols que Bob Esponja et
+                caigui a damunt. Tens 5 microsegons per a fer-ho. A partir de...
+                ja....
+              </p>
+              <h4>Clica aquí!</h4>
+              <p>
+                Clica <a href="#">aquí</a> ràpid! Clica aquí ràpid! Clica aquí
+                ràpid! Clica aquí ràpid!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-cards"></div>
+      </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

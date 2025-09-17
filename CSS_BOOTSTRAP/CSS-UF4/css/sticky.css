@@ -1,0 +1,13 @@
+section {
+  border: medium solid black;
+  margin: 30px;
+}
+
+.titols {
+  margin: 10px;
+  background-color: rgba(255, 0, 0, 0.407);
+  text-align: center;
+  position: sticky;
+  top: 0;
+  font-size: 150%;
+}

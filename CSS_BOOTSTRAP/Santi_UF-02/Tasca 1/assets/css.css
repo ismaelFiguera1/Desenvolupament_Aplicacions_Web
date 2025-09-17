@@ -1,0 +1,24 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  background-image: url(18897488866_daf22aab6b_5k.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: rgb(0 208 207);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 10rem 0;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form action="" class="m-5 w-50 p-3 border border-primary rounded">
+        <img
+          src="assets/imatges/boladrac.png"
+          class="rounded mx-auto d-block w-75"
+          alt="..."
+        />
+        <div class="input-group mb-3">
+          <span class="input-group-text">
+            <img
+              src="assets/imatges/person-fill.svg"
+              alt="Icono usuari"
+              width="16"
+              height="16"
+            />
+          </span>
+          <input
+            type="text"
+            class="form-control"
+            id="nomUsuari"
+            placeholder="Nom d'usuari"
+          />
+        </div>
+
+        <!---->
+
+        <div class="input-group mb-3">
+          <span class="input-group-text">
+            <img src="assets/imatges/lock.svg" alt="" width="16" height="16" />
+          </span>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Contrasenya"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary w-100 rounded">
+          Entrar
+        </button>
+        <div class="mb-3 mt-3 d-flex flex-row justify-content-between">
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1">Recordar</label>
+          </div>
+          <p><a href="#" class="link-primary">Password olbidat?</a></p>
+        </div>
+
+        <!---->
+
+        <div class="mb-3 d-flex flex-row justify-content-between">
+          <button type="button" class="btn btn-primary">FaceBall</button>
+          <button type="button" class="btn btn-info">TwitchDrac</button>
+          <button type="button" class="btn btn-danger">StarBall</button>
+        </div>
+
+        <p class="text-center ">
+          No disposes d'un compte?
+          <a href="#" class="text-primary text-decoration-none ">
+            Dona't d'alta aquí!
+          </a>
+        </p>
+      </form>
+    </section>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

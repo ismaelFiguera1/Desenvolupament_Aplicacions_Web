@@ -1,0 +1,18 @@
+.content{
+    width: 50%;
+    margin: auto;
+}
+
+.imatges{
+    display: flex;
+    flex-direction: row;
+}
+
+.imatges > * {
+    flex: 1;
+}
+
+.imatges img {
+    max-width: 50%;
+    position: relative;
+}
