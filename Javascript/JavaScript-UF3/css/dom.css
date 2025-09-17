@@ -1,0 +1,38 @@
+:root {
+  --color-primary: blue;
+  --color-secondary: black;
+}
+
+.caixa-variables-css {
+  background-color: var(--color-primary);
+}
+
+.card {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.card figcaption {
+  padding: 1rem;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.sepia {
+  filter: sepia(1);
+}
+
+.rotate-135 {
+  transform: rotate(135deg);
+}
+
+.cards {
+  border: medium solid black;
+}

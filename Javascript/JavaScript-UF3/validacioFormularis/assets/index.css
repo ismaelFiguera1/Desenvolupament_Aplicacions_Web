@@ -1,0 +1,71 @@
+/*  reset css   */
+:root {
+  --main-font: sans-serif;
+  --font-size: 16px;
+  --main-color: #f7df1e;
+  --second-color: #222;
+  --main-modal-color: rgba(247, 222, 30, 0.85);
+  --second-modal-color: rgba(34, 34, 34, 0.85);
+  --container-width: 1200px;
+  --form-ok-color: #4caf50;
+  --form-ko-color: #f44836;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--main-font);
+  font-size: var(--font-size);
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; /* Com que a html li he ficat   "border-box"    li diem "inherit" perque inherit es heredar */
+}
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.contact-form > * {
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.titol,
+.titol-ppal {
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1rem;
+  font-family: var(--main-font);
+}
+
+.contact-form input[type="submit"] {
+  width: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.contact-form [required]:valid {
+  border: thin solid var(--form-ok-color);
+}
+
+.contact-form [required]:invalid {
+  border: thin solid var(--form-ko-color);
+}

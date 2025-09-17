@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM nodes, elements i selectors</title>
+    <link rel="stylesheet" href="css/dom.css" />
+  </head>
+  <body>
+    <h1>DOM nodes, elements i selectors</h1>
+    <a href="html.html">Web APIs</a><br />
+    <h2>Gestio del DOM</h2>
+    <p id="gestio-dom">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga reiciendis
+      accusamus minima ex enim! Cum repellendus ipsum doloribus architecto
+      laboriosam facilis! Accusantium, laboriosam porro. Perferendis neque vero
+      corrupti necessitatibus cumque. Quaerat quam iusto, error sint qui
+      asperiores consequuntur aliquam perspiciatis porro molestiae eveniet
+      mollitia labore fuga quia corporis ab unde enim dolorem aperiam ullam
+      debitis voluptatem delectus et reprehenderit. Voluptas.
+    </p>
+
+    <nav id="menu">
+      <ul>
+        <li><a href="#">Seccio 1</a></li>
+        <li><a href="#">Seccio 2</a></li>
+        <li><a href="#">Seccio 3</a></li>
+        <li><a href="#">Seccio 4</a></li>
+        <li><a href="#">Seccio 5</a></li>
+      </ul>
+    </nav>
+
+    <input type="text" name="nom" placeholder="Intro nom" /><br />
+    <a
+      href="dom.html"
+      class="link-dom"
+      data-descrption="document_object_model"
+      style="background-color: aqua; color: blueviolet"
+      >DOM</a
+    >
+    <section class="cards">
+      <figure class="card opacity-20">
+        <img src="https://picsum.photos/200/200/?random=1" alt="" />
+        <figcaption>imatge1</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          src="https://picsum.photos/200/200/?random=2"
+          alt=""
+          class="rotate-45"
+        />
+        <figcaption class="caption-2">imatge2</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          src="https://picsum.photos/200/200/?random=3"
+          alt=""
+          class="sepia"
+        />
+        <figcaption>imatge3</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          src="https://picsum.photos/200/200/?random=4"
+          alt=""
+          class="rotate-135"
+        />
+        <figcaption>imatge4</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://picsum.photos/200/200/?random=5" alt="" />
+        <figcaption>imatge5</figcaption>
+      </figure>
+    </section>
+    <br /><br /><br />
+
+    <h2>Atributs i Data-Attributes</h2>
+
+    <div class="caixa-variables-css">Caixa de variables CSS</div>
+
+    <div id="outerHTML"></div>
+
+    <hr />
+
+    <h2>DOM Traversing: recorrent el DOM</h2>
+
+    <hr />
+
+    <h2>Creant elements i fragments</h2>
+    <p>
+      Podem crear els nostres elements dinamicament desde javascript amb
+      apendChild() que afegeix elements al final del selector objecttiu
+    </p>
+    <hr />
+
+    <br /><br /><br />
+    <h2>Template HTML</h2>
+    <p>
+      A partir de HTML 5tenim l'etiqueta "template", que permet estructurar html
+      i mitjançant javascript es converteix en dinamic. S'utilitza en combinacio
+      amb els fragments del DOM i es una altra forma d'interectuar de forma
+      eficient amb el DOM
+    </p>
+    <p>
+      L'etiqueta template la podem veurer en la finestra d'inpeccionar de les
+      dev tools, pero no te efectes visuals a la pagina web. No es renderitza al
+      DOM, l'etiqueta template serveix per fer un model i a partir d'ell generar
+      estructures DOM dinamicament.
+    </p>
+
+    <template id="template-card">
+      <figure class="card">
+        <img />
+        <figcaption></figcaption>
+      </figure>
+    </template>
+
+    <!--
+    Metodes que ens permetran afegir elements al principi, final o a una posicio completa. Ens recolzarem en les propietats DOM traversi per aconseguir-ho
+    -->
+
+    <a href="dom.html#">☝️</a>
+    <script src="js/dom.js"></script>
+  </body>
+</html>

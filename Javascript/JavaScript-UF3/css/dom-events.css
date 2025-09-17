@@ -1,0 +1,15 @@
+.flux-events div {
+  padding: 4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.un {
+  background-color: yellow;
+}
+.dos {
+  background-color: goldenrod;
+}
+.tres {
+  background-color: lightyellow;
+}

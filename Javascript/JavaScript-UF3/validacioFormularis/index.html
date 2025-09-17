@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validacio Formularis</title>
+    <link rel="stylesheet" href="assets/index.css" />
+  </head>
+  <body>
+    <h1 class="titol-ppal">Validacio de Formularis</h1>
+    <form class="contact-form">
+      <legend class="titol">Formulari prova</legend>
+      <input
+        type="text"
+        name="nom"
+        placeholder="Nom"
+        title="Nom nomes suprta lletres i espais"
+        pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÚú\s]+$"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Escriu l'email"
+        title="Email incorrecte"
+        pattern="[/\w+@\w+\.\w+/]"
+        required
+      />
+      <input
+        type="text"
+        name="subject"
+        placeholder="Assumpte a tractar"
+        title="Es obligatori"
+        required
+      />
+      <textarea
+        name="comentaris"
+        rows="5"
+        placeholder="Escriu els comentaris"
+        title="El comentari no pot tenir mes de 255 caracters"
+        data-pattern="^{1,255}$"
+        minlength="1"
+        maxlength="20"
+        required
+      ></textarea>
+      <input type="submit" value="Enviar" />
+      <div class="contact-form-loader none">
+        <img src="assets/loader.svg" alt="Carregant" />
+      </div>
+      <div class="contact-form-response none">
+        <p>Les dades han estat enviades correctament</p>
+      </div>
+    </form>
+  </body>
+</html>
