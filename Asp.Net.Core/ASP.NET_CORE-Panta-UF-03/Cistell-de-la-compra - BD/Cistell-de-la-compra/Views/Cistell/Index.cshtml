@@ -1,0 +1,43 @@
+﻿@model Cistell_de_la_compra.Models.Cistell
+
+<!--
+
+<section class="cistell">
+	<h1>Cistell de la compra</h1>
+	<form asp-action="ActualitzarCistell2" method="post">
+		<table>
+			<tr>
+				<th>Codi de producte</th>
+				<th>Nom</th>
+				<th>Quantitat</th>
+				<th>Preu unitat</th>
+				<th>Preu Total</th>
+			</tr>
+		
+		
+			foreach (var element in Model.Elements)
+			{
+
+				<tr>
+					<td>element.product.CodiProducte</td>
+					<td>element.product.Nom</td>
+					<td>
+						<input type="number" name="QuantitatFormulari" min="0" value="element.Quantitat" />
+					</td>
+						<td>element.product.Preu</td>
+						<td>element.preuTotalProducteCistell</td>
+				</tr>
+					<input type="hidden" name="CodiFormulari" min="0" value="element.product.CodiProducte" />
+
+
+			}
+		
+		</table>
+
+
+		<button name="action" value="comprar" type="submit">Comprar</button>
+		<button name="action" value="actualitzar" type="submit">Actualitzar</button>
+		<button name="action" value="cancel" type="submit">Cancelar</button>
+	</form>
+</section>
+-->

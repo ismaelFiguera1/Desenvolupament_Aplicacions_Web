@@ -1,0 +1,36 @@
+﻿@model LLibresCatala.Models.Llibre
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Llibre</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Titol)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Titol)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumPag)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumPag)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Preu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Preu)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ISBN">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,55 @@
+﻿@model Base_Dades.ViewModels.PaisosCiutats
+
+
+<section class="ciutats">
+    <h1>Ciutats del Mon</h1>
+    <br /><br /><br /><br /><br />
+    @if (TempData["Missatge"] != null)
+    {
+        <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724;">
+            @TempData["Missatge"]
+        </div>
+    }
+
+    
+
+    
+    <a asp-action="Afegir" asp-controller="Ciutats" class="btn btn-primary">Afegir Ciutat</a>
+    
+        <table>
+            
+                <tr>
+                    <th>ID</th>
+                    <th>Nom</th>
+                    <th>Codi-Pais</th>
+                    <th>Districte</th>
+                    <th>Poblacio</th>
+                </tr>
+        @foreach (var el in Model.llistaCiutats)
+                {
+            <form asp-action="BuscarCiutat" method="post">
+                    <tr>
+                        <td>@el.id</td>
+                        <td>@el.name</td>
+                        <td>@el.countrycode</td>
+                        <td>@el.district</td>
+                        <td>@el.population</td>
+                        <input type="hidden" name="idCiutatBuscar" value="@el.id" />
+                        <td>
+                            <button asp-action="UpdateCiutat" asp-controller="Ciutats" type="submit">Update</button>
+                        </td>
+                        <td>
+                            <button asp-action="DeleteCiutat" asp-controller="Ciutats" type="submit">Delete</button>
+                        </td>
+                    </tr>
+            </form>
+                }
+
+        </table>
+    
+    
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

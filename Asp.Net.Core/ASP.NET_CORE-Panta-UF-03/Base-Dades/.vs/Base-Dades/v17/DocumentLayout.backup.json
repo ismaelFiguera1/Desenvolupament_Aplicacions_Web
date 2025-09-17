@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alum-01\\source\\repos\\Base-Dades\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|c:\\users\\alum-01\\source\\repos\\base-dades\\base-dades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|solutionrelative:base-dades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alum-01\\source\\repos\\Base-Dades\\Base-Dades\\Repository\\CityRepository.cs",
+              "RelativeDocumentMoniker": "Base-Dades\\Repository\\CityRepository.cs",
+              "ToolTip": "C:\\Users\\alum-01\\source\\repos\\Base-Dades\\Base-Dades\\Repository\\CityRepository.cs",
+              "RelativeToolTip": "Base-Dades\\Repository\\CityRepository.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAIAwwHEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:22:23.429Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

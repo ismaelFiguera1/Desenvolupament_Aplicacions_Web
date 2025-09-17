@@ -1,0 +1,63 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="~/NewFolder/base.css" />
+    <link rel="stylesheet" href="~/NewFolder/Home.css" />
+    <link rel="stylesheet" href="~/NewFolder/productes.css" />
+    <link rel="stylesheet" href="~/NewFolder/Cistella.css" />
+    
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/NewFolder/Factura.css" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Productes" asp-action="InserirProducte" id="ap">Afegir Productes</a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Productes" asp-action="Index">Productes</a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Cistell" asp-action="Index">
+                <img src="~/imatges/cistell-compra.svg" id="carretCompra" alt="Cistella" style="width:40px; height:40px;" />
+            </a>
+
+            @{
+                var username = Context.Session.GetString("User");
+                if (username == null)
+                {
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuaris" asp-action="Login">Login</a>
+                }
+                else
+                {
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuaris" asp-action="Logout">Logout</a>
+                }
+            }
+
+            
+
+        
+        </nav>
+    </header>
+    <main>@RenderBody()</main>
+    <footer>
+        <table class="footer">
+            <tr>
+                <td>2025</td>
+                <td></td>
+                <td>Ismael Figuera</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Mercadona</td>
+                <td></td>
+            </tr>
+        </table>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

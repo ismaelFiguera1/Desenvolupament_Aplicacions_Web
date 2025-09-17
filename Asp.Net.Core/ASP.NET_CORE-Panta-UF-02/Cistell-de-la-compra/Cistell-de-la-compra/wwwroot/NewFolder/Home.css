@@ -1,0 +1,15 @@
+﻿.home {
+    display: flex;
+    justify-content: space-between;
+    height:50%;
+    padding: 2%;
+}
+
+.home > div {
+    width: 35%;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\data\\llibrescatalacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\data\\llibrescatalacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\controllers\\llibrepersonascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\controllers\\llibrepersonascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\controllers\\llibrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\controllers\\llibrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\models\\llibrepersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\models\\llibrepersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\models\\llibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\models\\llibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|c:\\users\\usuari\\source\\repos\\llibrescatala\\llibrescatala\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFAB4A2-6118-4243-92A9-3E7C945A9258}|LLibresCatala\\LLibresCatala.csproj|solutionrelative:llibrescatala\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Llibre.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Models\\Llibre.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Models\\Llibre.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Models\\Llibre.cs",
+              "RelativeToolTip": "LLibresCatala\\Models\\Llibre.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:35:15.149Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LlibrePersona.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Models\\LlibrePersona.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Models\\LlibrePersona.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Models\\LlibrePersona.cs",
+              "RelativeToolTip": "LLibresCatala\\Models\\LlibrePersona.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:44:53.537Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Models\\Persona.cs",
+              "RelativeToolTip": "LLibresCatala\\Models\\Persona.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:50:21.67Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutorController.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Controllers\\AutorController.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Controllers\\AutorController.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Controllers\\AutorController.cs",
+              "RelativeToolTip": "LLibresCatala\\Controllers\\AutorController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:36:29.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Controllers\\PersonasController.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Controllers\\PersonasController.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Controllers\\PersonasController.cs",
+              "RelativeToolTip": "LLibresCatala\\Controllers\\PersonasController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAwwBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:27:09.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LLibresCatala\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LLibresCatala\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T15:23:22.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LlibresController.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Controllers\\LlibresController.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Controllers\\LlibresController.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Controllers\\LlibresController.cs",
+              "RelativeToolTip": "LLibresCatala\\Controllers\\LlibresController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:23:08.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LlibresCatalaContext.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Data\\LlibresCatalaContext.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Data\\LlibresCatalaContext.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Data\\LlibresCatalaContext.cs",
+              "RelativeToolTip": "LLibresCatala\\Data\\LlibresCatalaContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAMwA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:34:43.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LlibrePersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Controllers\\LlibrePersonasController.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Controllers\\LlibrePersonasController.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Controllers\\LlibrePersonasController.cs",
+              "RelativeToolTip": "LLibresCatala\\Controllers\\LlibrePersonasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:31:18.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Program.cs",
+              "RelativeDocumentMoniker": "LLibresCatala\\Program.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\LLibresCatala\\LLibresCatala\\Program.cs",
+              "RelativeToolTip": "LLibresCatala\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAMwCIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:40:43.073Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

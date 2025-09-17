@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|c:\\users\\usuari\\source\\repos\\base-dades\\base-dades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|solutionrelative:base-dades\\repository\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|c:\\users\\usuari\\source\\repos\\base-dades\\base-dades\\repository\\interfaces\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|solutionrelative:base-dades\\repository\\interfaces\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|c:\\users\\usuari\\source\\repos\\base-dades\\base-dades\\controllers\\ciutatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|solutionrelative:base-dades\\controllers\\ciutatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|c:\\users\\usuari\\source\\repos\\base-dades\\base-dades\\views\\ciutats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|solutionrelative:base-dades\\views\\ciutats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|c:\\users\\usuari\\source\\repos\\base-dades\\base-dades\\views\\ciutats\\afegir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF5BFDC-EB7E-4CAA-8AA0-AAF64219C8D9}|Base-Dades\\Base-Dades.csproj|solutionrelative:base-dades\\views\\ciutats\\afegir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Repository\\Interfaces\\ICityRepository.cs",
+              "RelativeDocumentMoniker": "Base-Dades\\Repository\\Interfaces\\ICityRepository.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Repository\\Interfaces\\ICityRepository.cs",
+              "RelativeToolTip": "Base-Dades\\Repository\\Interfaces\\ICityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:19:49.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Repository\\CityRepository.cs",
+              "RelativeDocumentMoniker": "Base-Dades\\Repository\\CityRepository.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Repository\\CityRepository.cs",
+              "RelativeToolTip": "Base-Dades\\Repository\\CityRepository.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAIAwwH8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:53:25.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Views\\Ciutats\\Index.cshtml",
+              "RelativeDocumentMoniker": "Base-Dades\\Views\\Ciutats\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Views\\Ciutats\\Index.cshtml",
+              "RelativeToolTip": "Base-Dades\\Views\\Ciutats\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T14:50:24.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Afegir.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Views\\Ciutats\\Afegir.cshtml",
+              "RelativeDocumentMoniker": "Base-Dades\\Views\\Ciutats\\Afegir.cshtml",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Views\\Ciutats\\Afegir.cshtml",
+              "RelativeToolTip": "Base-Dades\\Views\\Ciutats\\Afegir.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T14:44:52.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CiutatsController.cs",
+              "DocumentMoniker": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Controllers\\CiutatsController.cs",
+              "RelativeDocumentMoniker": "Base-Dades\\Controllers\\CiutatsController.cs",
+              "ToolTip": "C:\\Users\\usuari\\source\\repos\\Base-Dades\\Base-Dades\\Controllers\\CiutatsController.cs",
+              "RelativeToolTip": "Base-Dades\\Controllers\\CiutatsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:44:09.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

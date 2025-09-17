@@ -1,0 +1,58 @@
+﻿@model LLibresCatala.ViewModels.AutorAssignaLlibre
+
+@{
+    ViewData["Title"] = "Assignar un llibre al autor";
+}
+
+<h1>Asignar un llibre</h1>
+
+<div>
+    <h4>Autor: @Model.Autor.Nom</h4>
+</div>
+
+@{
+    IEnumerable<LLibresCatala.Models.Llibre>? llibres = Model?.Llibres;
+    if (llibres == null) llibres = [];
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Titol
+            </th>
+            <th>
+                Num Pag
+            </th>
+            <th>
+                Preu
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in llibres)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titol)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumPag)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preu)
+                </td>
+                <td>
+                    <a asp-action="AfegeixLlibre" asp-route-isbn="@item.ISBN" asp-route-id="@Model.Autor.Id">Assignar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+<div>
+    <a asp-action="Inici">Tornar a la llista</a>
+</div>

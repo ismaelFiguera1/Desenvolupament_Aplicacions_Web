@@ -1,0 +1,6 @@
+@API_Cronometre_HostAddress = http://localhost:5223
+
+GET {{API_Cronometre_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

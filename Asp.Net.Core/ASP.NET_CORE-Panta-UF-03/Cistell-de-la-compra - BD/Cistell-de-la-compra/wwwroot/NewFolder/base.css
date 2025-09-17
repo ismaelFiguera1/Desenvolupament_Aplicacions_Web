@@ -1,0 +1,56 @@
+﻿*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    flex-direction: column;
+}
+
+header {
+    height: 12%;
+    padding-top: 2%;
+}
+
+main {
+    height: 78%;
+    background-image: url('../imatges/mercadona.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    height: 10%;
+}
+
+nav {
+    display: flex;
+}
+
+    nav > * {
+        flex: 1;
+        text-align: center;
+    }
+
+.footer {
+    width: 100%;
+}
+
+    .footer td {
+        width: 30.33%;
+        text-align: center;
+    }
+
+.footer {
+    border-spacing: 6px;
+}

@@ -1,0 +1,40 @@
+﻿@model Base_Dades.ViewModels.PaisosCiutats
+<section>
+	<form asp-action="UpdateCiutatFINAL" method="post">
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Nom</th>
+				<th>Codi-Pais</th>
+				<th>Districte</th>
+				<th>Poblacio</th>
+			</tr>
+			<tr>
+				<td>@Model.ciutat.id</td>
+				<td><input type="text" asp-for="ciutat.name" value="@Model.ciutat.name" class="form-control" /></td>
+				<td>
+					<select asp-for="ciutat.countrycode">
+						<option value="@Model.ciutat.countrycode">@Model.pais.Name</option>
+						@foreach(Pais pais in Model.llistaPaisos){
+							<option value="@pais.Code">@pais.Name</option>
+						}
+						
+					</select>
+				</td>
+				<td><input type="text" asp-for="ciutat.district" value="@Model.ciutat.district" class="form-control" /></td>
+				<td><input type="number" asp-for="ciutat.population" value="@Model.ciutat.population" class="form-control" /></td>
+			</tr>
+		</table>
+		<input type="hidden" asp-for="ciutat.id" value="@Model.ciutat.id" />
+		<button type="submit">UPDATE</button>
+	</form>
+
+	@if (TempData["Missatge"] != null)
+	{
+		<div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724;">
+			@TempData["Missatge"]
+		</div>
+	}
+
+	
+</section>

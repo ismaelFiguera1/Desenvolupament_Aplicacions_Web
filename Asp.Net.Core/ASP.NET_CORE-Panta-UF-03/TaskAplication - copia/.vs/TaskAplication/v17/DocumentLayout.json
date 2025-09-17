@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\TaskAplication\\Models\\Cotxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskAplication\\Models\\Cotxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3FC5B2-ED73-41F3-8A2A-748CD7A9977E}|TaskAplication\\TaskAplication.csproj|c:\\users\\alum-01\\source\\repos\\taskaplication - copia\\taskaplication\\models\\tasca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3FC5B2-ED73-41F3-8A2A-748CD7A9977E}|TaskAplication\\TaskAplication.csproj|solutionrelative:taskaplication\\models\\tasca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\TaskAplication\\Models\\Persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskAplication\\Models\\Persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cotxe.cs",
+              "DocumentMoniker": "C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\TaskAplication\\Models\\Cotxe.cs",
+              "RelativeDocumentMoniker": "TaskAplication\\Models\\Cotxe.cs",
+              "ToolTip": "C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\TaskAplication\\Models\\Cotxe.cs",
+              "RelativeToolTip": "TaskAplication\\Models\\Cotxe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:38:47.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tasca.cs",
+              "DocumentMoniker": "C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\TaskAplication\\Models\\Tasca.cs",
+              "RelativeDocumentMoniker": "TaskAplication\\Models\\Tasca.cs",
+              "ToolTip": "C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\TaskAplication\\Models\\Tasca.cs",
+              "RelativeToolTip": "TaskAplication\\Models\\Tasca.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:12:42.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\TaskAplication\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "TaskAplication\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\alum-01\\source\\repos\\TaskAplication - copia\\TaskAplication\\Models\\Persona.cs",
+              "RelativeToolTip": "TaskAplication\\Models\\Persona.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:46:26.078Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

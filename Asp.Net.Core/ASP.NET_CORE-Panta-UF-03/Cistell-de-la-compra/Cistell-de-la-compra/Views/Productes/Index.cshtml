@@ -1,0 +1,49 @@
+﻿
+<section class="p-section">
+    <section>
+        <div class="p-titol">
+            <h1>Productes del Mercadona</h1>
+        </div>
+
+        <div>
+            <div class="p-tenda">
+
+                <!-- "Model" es converteix autamaticament en el model 
+                que li hem passat al controlador -->
+
+                @foreach (var producte in Model)
+                {
+
+                    <div>
+                        <form asp-controller="Cistell" asp-action="AgafarProductes" method="post">
+                            <figure>
+                                <img src="@producte.Imatge" alt="Alternate Text" />
+                                <figcaption>@producte.Nom</figcaption>
+                                <input type="hidden" name="CodiProducteFormulari" value="@producte.CodiProducte" />
+                                <input type="hidden" name="QuantitatFormulari" value="1" />
+                                <button type="submit">Afegir</button>
+                           </figure>
+                        </form>
+                    </div>
+
+                }
+
+
+
+            </div>
+            @if (TempData["MissatgeExit"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["MissatgeExit"]
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["ErrorMessage"]
+                </div>
+            }
+        </div>
+    </section>
+</section>

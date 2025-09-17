@@ -1,0 +1,76 @@
+﻿@model LLibresCatala.ViewModels.AutorDetalls
+
+@{
+    ViewData["Title"] = "Informació de l'autor";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Autor</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Autor.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Autor.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Autor.DataNaixement)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Autor.DataNaixement)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="AssignaLlibre" asp-route-id="@Model?.Autor.Id">Assignar nou llibre (existent)</a>
+</div>
+
+@{
+    IEnumerable<LLibresCatala.Models.Llibre>? llibres = Model?.Llibres;
+    if (llibres == null) llibres = [];
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Titol
+            </th>
+            <th>
+                Num Pag
+            </th>
+            <th>
+                Preu
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in llibres)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titol)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumPag)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preu)
+                </td>
+                <td>
+                    <a asp-action="SuprimeixLlibre" asp-route-isbn="@item.ISBN" asp-route-id="@Model.Autor.Id">Desassignar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+<div>
+    <a asp-action="Inici">Tornar a la llista</a>
+</div>

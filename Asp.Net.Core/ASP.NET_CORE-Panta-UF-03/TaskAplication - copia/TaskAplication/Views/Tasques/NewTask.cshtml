@@ -1,0 +1,43 @@
+﻿@model Tasca
+<div class="container">
+	<h1>Formulari Alta</h1>
+
+	@if (TempData["Message"] != null)
+	{
+		<div class="alert alert-success mt-2">
+			@TempData["Message"]
+		</div>
+	}
+
+	<div class="mt-5">
+		<form asp-action="Alta" method="post">
+			<div>
+				<label>Descripcio</label>
+				<input type="text" asp-for="Description" />
+				<span asp-validation-for="Description" class="text-danger"></span>
+			</div>
+
+			<div>
+				<label>Data Creacio</label>
+				<input type="text" value="@Model.CrearModificar" disabled />
+			</div>
+
+			<div>
+				<label>Estat Tasca</label>
+				@{
+					if(Model.TascaFeta == false)
+					{
+						<input type="text" value="0" disabled />
+					}else{
+						
+						<input type="text" value="1" disabled />
+					}
+				}
+			</div>
+
+			<button type="submit" class="btn btn-primary">Alta</button>
+		</form>
+	</div>
+</div>
+
+<partial name="_ValidationScriptsPartial" />

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<LLibresCatala.Models.Persona>
+
+@{
+    ViewData["Title"] = "Llista d'autors";
+}
+
+<h1>Autors</h1>
+
+<p>
+    <a asp-action="Nou">Crear un nou autor (amb llibre)</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNaixement)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataNaixement)
+                </td>
+                <td>
+                    <a asp-action="Detalls" asp-route-id="@item.Id">Detalls</a> |
+                    <a asp-action="Esborra" asp-route-id="@item.Id">Esborra</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

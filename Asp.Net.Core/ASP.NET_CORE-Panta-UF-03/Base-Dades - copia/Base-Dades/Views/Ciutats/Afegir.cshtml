@@ -1,0 +1,40 @@
+﻿@model Base_Dades.ViewModels.PaisosCiutats
+<section class="crearCiutat">
+	<h1>Crear Ciutat</h1>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <form asp-action="AltaCiutat" method="post">
+        <div>
+            <label asp-for="ciutat.name"></label>
+            <input type="text" asp-for="ciutat.name" class="form-control" />
+            <span asp-validation-for="ciutat.name" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="ciutat.countrycode"></label>
+            <select asp-for="ciutat.countrycode">
+                @foreach (Pais pais in Model.llistaPaisos)
+                {
+                    <option value="@pais.Code">@pais.Name</option>
+                }
+
+            </select>
+            <span asp-validation-for="ciutat.countrycode" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="ciutat.district"></label>
+            <input type="text" asp-for="ciutat.district" class="form-control" />
+            <span asp-validation-for="ciutat.district" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="ciutat.population"></label>
+            <input type="number" asp-for="ciutat.population" class="form-control" />
+            <span asp-validation-for="ciutat.population" class="text-danger"></span>
+        </div>
+
+        <button type="submit">Crear Ciutat</button>
+    </form>
+</section>

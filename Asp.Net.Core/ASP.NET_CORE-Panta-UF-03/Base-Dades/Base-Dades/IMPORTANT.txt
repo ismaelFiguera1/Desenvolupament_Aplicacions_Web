@@ -1,0 +1,9 @@
+✅ Si el valor en la base de datos es...
+Tipo en MySQL	¿Cómo lo casteas en C#?
+INT, BIGINT, COUNT(*)	(long) o Convert.ToInt64(...) ✅
+VARCHAR, CHAR, TEXT	(string) o .ToString() ✅
+DOUBLE, DECIMAL	Convert.ToDouble(...) ✅
+DATE, DATETIME	Convert.ToDateTime(...) ✅
+
+Object resultat = cmd.ExecuteScalar();
+var doble = Convert.ToDouble(resultat);

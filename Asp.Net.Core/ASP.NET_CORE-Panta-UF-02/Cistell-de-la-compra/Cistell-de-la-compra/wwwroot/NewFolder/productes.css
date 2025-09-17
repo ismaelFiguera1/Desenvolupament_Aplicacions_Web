@@ -1,0 +1,16 @@
+﻿.p-tenda {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: beige;
+}
+
+
+
+.p-tenda img {
+    width: 200px;
+    height: auto;
+}
+
+main {
+    overflow: auto;
+}

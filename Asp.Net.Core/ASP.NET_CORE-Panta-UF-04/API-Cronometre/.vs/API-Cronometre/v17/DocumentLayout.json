@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alum-01\\source\\repos\\API-Cronometre\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0E6B2E-250A-4362-A007-42784B293170}|API-Cronometre\\API-Cronometre.csproj|c:\\users\\alum-01\\source\\repos\\api-cronometre\\api-cronometre\\cronometre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0E6B2E-250A-4362-A007-42784B293170}|API-Cronometre\\API-Cronometre.csproj|solutionrelative:api-cronometre\\cronometre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0E6B2E-250A-4362-A007-42784B293170}|API-Cronometre\\API-Cronometre.csproj|c:\\users\\alum-01\\source\\repos\\api-cronometre\\api-cronometre\\services\\cronometreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0E6B2E-250A-4362-A007-42784B293170}|API-Cronometre\\API-Cronometre.csproj|solutionrelative:api-cronometre\\services\\cronometreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0E6B2E-250A-4362-A007-42784B293170}|API-Cronometre\\API-Cronometre.csproj|c:\\users\\alum-01\\source\\repos\\api-cronometre\\api-cronometre\\controllers\\cronometrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0E6B2E-250A-4362-A007-42784B293170}|API-Cronometre\\API-Cronometre.csproj|solutionrelative:api-cronometre\\controllers\\cronometrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cronometre.cs",
+              "DocumentMoniker": "C:\\Users\\alum-01\\source\\repos\\API-Cronometre\\API-Cronometre\\Cronometre.cs",
+              "RelativeDocumentMoniker": "API-Cronometre\\Cronometre.cs",
+              "ToolTip": "C:\\Users\\alum-01\\source\\repos\\API-Cronometre\\API-Cronometre\\Cronometre.cs",
+              "RelativeToolTip": "API-Cronometre\\Cronometre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:35:57.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CronometreService.cs",
+              "DocumentMoniker": "C:\\Users\\alum-01\\source\\repos\\API-Cronometre\\API-Cronometre\\Services\\CronometreService.cs",
+              "RelativeDocumentMoniker": "API-Cronometre\\Services\\CronometreService.cs",
+              "ToolTip": "C:\\Users\\alum-01\\source\\repos\\API-Cronometre\\API-Cronometre\\Services\\CronometreService.cs",
+              "RelativeToolTip": "API-Cronometre\\Services\\CronometreService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAADwv2UAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:52:26.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CronometreController.cs",
+              "DocumentMoniker": "C:\\Users\\alum-01\\source\\repos\\API-Cronometre\\API-Cronometre\\Controllers\\CronometreController.cs",
+              "RelativeDocumentMoniker": "API-Cronometre\\Controllers\\CronometreController.cs",
+              "ToolTip": "C:\\Users\\alum-01\\source\\repos\\API-Cronometre\\API-Cronometre\\Controllers\\CronometreController.cs",
+              "RelativeToolTip": "API-Cronometre\\Controllers\\CronometreController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAYwIYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:34:09.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

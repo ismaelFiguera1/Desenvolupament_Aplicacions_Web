@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLibresCatala", "LLibresCatala\LLibresCatala.csproj", "{5FFAB4A2-6118-4243-92A9-3E7C945A9258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FFAB4A2-6118-4243-92A9-3E7C945A9258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFAB4A2-6118-4243-92A9-3E7C945A9258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFAB4A2-6118-4243-92A9-3E7C945A9258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFAB4A2-6118-4243-92A9-3E7C945A9258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2239BF33-F551-41F2-90EA-D2F40FA6FB85}
+	EndGlobalSection
+EndGlobal

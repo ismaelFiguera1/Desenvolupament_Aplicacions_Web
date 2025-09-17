@@ -1,0 +1,33 @@
+﻿@model Tasca
+
+<div class="container">
+	<h1>UPDATE</h1>
+	<form action="Update" method="post">
+		<div>
+			<label>Id</label>
+			<input type="text" asp-for="Id" readonly />
+		</div>
+
+		<div>
+			<label>Tasca feta</label>
+			<input type="checkbox" asp-for="TascaFeta"  />
+		</div>
+
+		<div>
+			<input type="hidden" value="@DateTime.Now" name="dataCreation" readonly />
+		</div>
+
+		<div>
+			<label>Descripcio Tasca</label>
+			<input type="text" asp-for="Description" />
+
+			<span asp-validation-for="Description" class="text-danger"></span>
+		</div>
+
+		<button type="submit" class="btn btn-primary">UPDATE</button>
+	</form>
+</div>
+
+
+
+<partial name="_ValidationScriptsPartial" />
